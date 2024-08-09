@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smoking",
+    "ingredients": [
+        {
+            "item": "minecraft:clay_ball"    
+        }
+    ],
+    "result": {
+        "item": "create_automative:blank_mould",
+        "count": 1
+    }
+}
