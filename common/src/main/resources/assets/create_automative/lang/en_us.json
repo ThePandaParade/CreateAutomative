@@ -1,0 +1,14 @@
+{
+  "itemGroup.create_automative.tab":            "Create: Automative",
+  "item.create_automative.example_item":        "Example Item",
+  "item.create_automative.blank_mould":         "Blank Mould",
+  "item.create_automative.totem_mould":         "Totem Mould",
+  "item.create_automative.filled_totem_mould":  "Filled Totem Mould",
+  "item.create_automative.apple_mould":         "Apple Mould",
+  "item.create_automative.filled_apple_mould":  "Filled Apple Mould",
+  "item.create_automative.star_mould":          "Star Mould",
+  "item.create_automative.filled_star_mould":   "Filled Star Mould",
+  "item.create_automative.gem_mould":           "Gem Mould",
+  "item.create_automative.filled_gem_mould":    "Filled Gem Mould"
+
+}
