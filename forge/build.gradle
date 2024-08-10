@@ -7,6 +7,24 @@ architectury {
     forge()
 }
 
+repositories {
+    mavenLocal()
+	maven { url = "https://maven.shedaniel.me/" } // Cloth Config, REI
+	maven { url = "https://maven.blamejared.com/" } // JEI
+	maven { url = "https://maven.parchmentmc.org" } // Parchment mappings
+	maven { url = "https://maven.quiltmc.org/repository/release" } // Quilt Mappings
+	maven { url = "https://api.modrinth.com/maven" } // LazyDFU, JEI runtime
+	maven { url = "https://maven.terraformersmc.com/releases/" } // Mod Menu
+	maven { url = "https://mvn.devos.one/snapshots/" } // Create, Porting Lib, Forge Tags, Milk Lib, Registrate
+	maven { url = "https://cursemaven.com" } // Forge Config API Port
+	maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
+	maven { url = "https://jitpack.io/" } // Mixin Extras, Fabric ASM
+	maven { url = "https://maven.tterrag.com/" } // Flywheel
+    // Borrowed from Antarctic Gardens' Create New Age. Sorry!
+    maven { url = "https://squiddev.cc/maven/"}
+    maven { url = "https://maven.resourcefulbees.com/repository/maven-public/"}
+}
+
 loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath
 
@@ -14,8 +32,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "examplemod-common.mixins.json"
-        mixinConfig "examplemod.mixins.json"
+        mixinConfig "create_automative-common.mixins.json"
+        mixinConfig "create_automative.mixins.json"
     }
 }
 
@@ -27,12 +45,27 @@ configurations {
     developmentForge.extendsFrom common
 }
 
+
+
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
 
-    
+	modImplementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim")
+	modCompileOnly("dev.emi:emi-forge:${emi_version}");
+	// compileOnly("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+	// compileOnly("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}")
+	modCompileOnly("me.shedaniel:RoughlyEnoughItems-forge:${rei_version}");
+
+	switch (recipe_viewer.toLowerCase(Locale.ROOT)) {
+		case "jei": modLocalRuntime("maven.modrinth:jei:${jei_runtime}"); break
+		case "rei": modLocalRuntime("me.shedaniel:RoughlyEnoughItems-forge:${rei_version}"); break
+		case "emi": modLocalRuntime("dev.emi:emi-forge:${emi_version}"); break
+		case "disabled": break
+		default: println("Unknown recipe viewer specified: ${recipe_viewer}. Must be JEI, REI, EMI, or disabled.")
+	}
+
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }

@@ -1,11 +1,12 @@
-package net.examplemod.forge;
+package com.create_automative.forge;
 
-import net.examplemod.ExampleExpectPlatform;
 import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.nio.file.Path;
 
-public class ExampleExpectPlatformImpl {
+import com.thepandaparade.create_automative.TPPCAExpectPlatform;
+
+public class TPPCAForgePlatformImpl {
     /**
      * This is our actual method to {@link ExampleExpectPlatform#getConfigDirectory()}.
      */

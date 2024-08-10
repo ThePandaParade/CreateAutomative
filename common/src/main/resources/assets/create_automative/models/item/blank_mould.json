@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "create_automative:item/mould",
-		"particle": "item/mould"
+		"particle": "create_automative:item/mould"
 	},
 	"elements": [
 		{

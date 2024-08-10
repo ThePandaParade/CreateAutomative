@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
   "mixin": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
+    "create_automative.mixins.json",
+    "create_automative-common.mixins.json"
   ],
   "quilt_loader": {
     "group": "${group}",
-    "id": "examplemod",
+    "id": "create_automative",
     "version": "${version}",
     "metadata": {
-      "name": "Example Mod",
-      "description": "This is an example description! Tell everyone what your mod is about!",
+      "name": "Create: Automative",
+      "description": "Automate everything with Create!",
       "contributors": {
-        "Me!": "Owner"
+        "Robyn-Dawn 'ThePandaParade' B. <robyn@pandapa.ws>": "Lead Developer"
       },
       "contact": {
         "sources": "https://github.com/architectury/architectury-templates"
       },
-      "icon": "assets/examplemod/icon.png"
+      "icon": "assets/icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "net.examplemod.quilt.ExampleModQuilt"
+        "net.create_automative.quilt.CreateAutomativeQuilt"
       ]
     },
     "depends": [
@@ -41,6 +41,10 @@
       {
         "id": "architectury",
         "version": ">=9.1.12"
+      },
+      {
+        "id": "create",
+        "version": ">=0.5.0"
       }
     ]
   },
