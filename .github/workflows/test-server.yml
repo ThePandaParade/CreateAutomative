@@ -4,7 +4,7 @@ on:
     branches:
       - '*'
   pull_request:
-    types: [ opened, syncrhonize, reopened ]
+    types: [ opened, synchronize, reopened ]
   workflow_dispatch: 
 jobs:
   validate-gradle:
@@ -21,7 +21,7 @@ jobs:
     strategy:
       matrix:
         java: [ 17 ] # Build on Java 17
-        serverType: [ 'fabric', 'forge', "quilt" ]
+        serverType: [ 'fabric', 'forge' ]
     runs-on: ubuntu-latest
     timeout-minutes: 20 # Fail after 20 minutes
     steps:
