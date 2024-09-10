@@ -10,6 +10,7 @@
 
 ### 🗞️ Recipes
 NOTE: All recipes are available in (J/R)EI. EMI is not tested - please report any issues.
+If you don't have JEI, you can find the recipes [here](RecipesAndTodo.md).
 
 #### Blank Mould
 Smoke a clay ball to get a Blank Mould. This is used in the creation of all other moulds.

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": 
+        {
+            "item": "minecraft:clay_ball"    
+        },
+    "result": "create_automative:blank_mould"
+}
