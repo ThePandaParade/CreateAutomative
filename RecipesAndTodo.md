@@ -8,7 +8,7 @@
 | ✖           | minecraft:azalea Azalea                      | TBD                           |                               |
 | ✔           | minecraft:basalt Basalt                      | Sequenced Assembly: Deploy Soul Soil on Blue Ice, Deploy Lava Bucket on Incomplete Basalt                           |Added in 0.1.0-INDEV. Returns 2x Basalt                               |
 | ✔           | minecraft:bedrock Bedrock                    | Superheated, Mix Obsidian and Netherite Block                           | Added in 0.1.0-INDEV, Will be toggleable in config  |
-| ✖           | minecraft:bee_nest Bee Nest                  | TBD                           |                               |
+| ✔           | minecraft:bee_nest Bee Nest                  | Deploy Honeycomb onto Bee Hive                           |Added in 0.1.0-INDEV                               |
 | ✔           | minecraft:blackstone Blackstone              | Haunt Cobblestone              | Implemented in regular Create |
 | ✔           | minecraft:brick(s) Bricks                    | Blast Clay                    | Implemented in regular Create |
 | ✖           | minecraft:budding_amethyst Budding Amethyst  | TBD                           |                               |

@@ -1,0 +1,20 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "minecraft:beehive"
+        },
+        {
+            "item": "minecraft:honeycomb"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:bee_nest"
+        },
+        {
+            "item": "minecraft:honeycomb",
+            "chance": 0.25
+        }
+    ]
+}
