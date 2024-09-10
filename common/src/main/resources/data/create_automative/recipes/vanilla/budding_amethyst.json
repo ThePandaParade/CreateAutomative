@@ -1,0 +1,24 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "minecraft:amethyst_block"
+        },
+        {
+            "item": "minecraft:amethyst_cluster"
+        }
+    ], 
+    "results": [
+        {
+            "item": "minecraft:budding_amethyst"
+        },
+        {
+            "item": "minecraft:amethyst_block",
+            "chance": 0.25
+        },
+        {
+            "item": "minecraft:amethyst_shard",
+            "chance": 0.75
+        }
+    ]
+}

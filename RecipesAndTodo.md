@@ -11,7 +11,7 @@
 | ✔           | minecraft:bee_nest Bee Nest                  | Deploy Honeycomb onto Bee Hive                           |Added in 0.1.0-INDEV                               |
 | ✔           | minecraft:blackstone Blackstone              | Haunt Cobblestone              | Implemented in regular Create |
 | ✔           | minecraft:brick(s) Bricks                    | Blast Clay                    | Implemented in regular Create |
-| ✖           | minecraft:budding_amethyst Budding Amethyst  | TBD                           |                               |
+| ✔           | minecraft:budding_amethyst Budding Amethyst  | Deploy Amethyst Cluster onto Amethyst Block                           | Added in 0.1.0-INDEV                               |
 | ✖           | minecraft:cactus Cactus                      | TBD                           |                               |
 | ✖           | minecraft:calcite Calcite                    | TBD                           |                               |
 | ✖           | minecraft:crying_obsidian Crying Obsidian     | TBD                           |                               |
