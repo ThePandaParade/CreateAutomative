@@ -9,6 +9,7 @@
   "item.create_automative.star_mould":          "Star Mould",
   "item.create_automative.filled_star_mould":   "Filled Star Mould",
   "item.create_automative.gem_mould":           "Gem Mould",
-  "item.create_automative.filled_gem_mould":    "Filled Gem Mould"
+  "item.create_automative.filled_gem_mould":    "Filled Gem Mould",
+  "item.create_automative.incomplete_basalt":   "Incomplete Basalt"
 
 }

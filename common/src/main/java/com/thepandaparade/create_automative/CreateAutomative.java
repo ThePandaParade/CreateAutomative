@@ -20,7 +20,7 @@ public final class CreateAutomative {
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(MOD_ID, Registries.CREATIVE_MODE_TAB);
     public static final RegistrySupplier<CreativeModeTab> CREATIVE_MODE_TAB = TABS.register("tpp_ca_tab", () ->
             CreativeTabRegistry.create(Component.translatable("itemGroup." + MOD_ID + ".tab"),
-                    () -> new ItemStack(CreateAutomative.EXAMPLE_ITEM.get())));
+                    () -> new ItemStack(CreateAutomative.BLANK_MOULD_ITEM.get())));
     
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
 
@@ -55,6 +55,10 @@ public final class CreateAutomative {
     // Filled Star Mould
     public static final RegistrySupplier<Item> FILLED_STAR_MOULD_ITEM = ITEMS.register("filled_star_mould", () ->
             new Item(new Item.Properties().arch$tab(CreateAutomative.CREATIVE_MODE_TAB)));
+
+    // Incomplete Basalt
+    public static final RegistrySupplier<Item> INCOMPLETE_BASALT_ITEM = ITEMS.register("incomplete_basalt", () ->
+                new Item(new Item.Properties().arch$tab(CreateAutomative.CREATIVE_MODE_TAB)));
 
     public static void init() {
         // Write common init code here.

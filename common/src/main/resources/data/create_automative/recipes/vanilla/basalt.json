@@ -1,0 +1,51 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient":
+        {
+            "item": "minecraft:blue_ice"
+        },
+    "loops": 1,
+    "results": [
+        {
+            "count": 2,
+            "item": "minecraft:basalt"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:blue_ice"
+                },
+                {
+                    "item": "minecraft:soul_soil"
+                }
+            ],
+            "results": [
+                {
+                    "item": "create_automative:incomplete_basalt"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "create_automative:incomplete_basalt"
+                },
+                {
+                    "item": "minecraft:lava_bucket"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:incomplete_basalt"
+                }
+            ]
+        }
+    ],
+    "transitionalItem": {
+        "item": "create_automative:incomplete_basalt"
+    }
+}

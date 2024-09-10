@@ -4,10 +4,10 @@
 | Implemented | Item ID + Name                                | Ingredients                   | Additional notes              |
 |-------------|-----------------------------------------------|-------------------------------|-------------------------------|
 | ✖           | minecraft:amethyst_shard Amethyst Shard       | TBD                           |                               |
-| ✖           | minecraft:ancient_debris Ancient Debris       | TBD                           |                               |
+| ✔           | minecraft:ancient_debris Ancient Debris       | Deploy Netherrite Ingot on Netherrack                           | Added in 0.1.0-INDEV, 25% chance on Netherite Scrap                              |
 | ✖           | minecraft:azalea Azalea                      | TBD                           |                               |
-| ✖           | minecraft:basalt Basalt                      | TBD                           |                               |
-| ✖           | minecraft:bedrock Bedrock                    | TBD                           | Will be toggleable in config  |
+| ✔           | minecraft:basalt Basalt                      | Sequenced Assembly: Deploy Soul Soil on Blue Ice, Deploy Lava Bucket on Incomplete Basalt                           |Added in 0.1.0-INDEV. Returns 2x Basalt                               |
+| ✔           | minecraft:bedrock Bedrock                    | Superheated, Mix Obsidian and Netherite Block                           | Added in 0.1.0-INDEV, Will be toggleable in config  |
 | ✖           | minecraft:bee_nest Bee Nest                  | TBD                           |                               |
 | ✔           | minecraft:blackstone Blackstone              | Haunt Cobblestone              | Implemented in regular Create |
 | ✔           | minecraft:brick(s) Bricks                    | Blast Clay                    | Implemented in regular Create |

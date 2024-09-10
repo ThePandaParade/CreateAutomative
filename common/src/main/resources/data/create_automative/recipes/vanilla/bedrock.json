@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "superheated",
+    "ingredients": [
+        {
+            "item": "minecraft:obsidian"
+        },
+        {
+            "item": "minecraft:netherite_block"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:bedrock",
+            "chance": 0.5
+        },
+        {
+            "item": "minecraft:netherite_ingot",
+            "chance": 0.1
+        }]
+}
