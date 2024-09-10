@@ -25,8 +25,8 @@ public final class CreateAutomative {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
 
     // Example Item
-    public static final RegistrySupplier<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () ->
-            new Item(new Item.Properties().arch$tab(CreateAutomative.CREATIVE_MODE_TAB)));
+/*     public static final RegistrySupplier<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () ->
+            new Item(new Item.Properties().arch$tab(CreateAutomative.CREATIVE_MODE_TAB))); */
 
     // Blank Mould
     public static final RegistrySupplier<Item> BLANK_MOULD_ITEM = ITEMS.register("blank_mould", () ->
