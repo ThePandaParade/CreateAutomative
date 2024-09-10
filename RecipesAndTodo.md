@@ -13,11 +13,11 @@
 | ✔           | minecraft:brick(s) Bricks                    | Blast Clay                    | Implemented in regular Create |
 | ✔           | minecraft:budding_amethyst Budding Amethyst  | Deploy Amethyst Cluster onto Amethyst Block                           | Added in 0.1.0-INDEV                               |
 | ✖           | minecraft:cactus Cactus                      | TBD                           |                               |
-| ✖           | minecraft:calcite Calcite                    | TBD                           |                               |
-| ✖           | minecraft:crying_obsidian Crying Obsidian     | TBD                           |                               |
+| ✔           | minecraft:calcite Calcite                    | Mix Amethyst Shard with Diorite                           |Added in 0.1.0-INDEV                               |
+| ✔           | minecraft:crying_obsidian Crying Obsidian     | Spout 10mB Water onto Obsidian                           | Added in 0.1.0-INDEV                              |
 | ✔           | minecraft:concrete Concrete                  | Wash Concrete Powder           | Implemented in regular Create |
 | ✔           | minecraft:copper_ingot Copper Ingot          | Crush Veridium                 | Implemented in regular Create |
-| ✖           | minecraft:dragon_egg Dragon Egg              | TBD                           |                               |
+| ✔           | minecraft:dragon_egg Dragon Egg              | Superheated, Mix Dragon Egg, Egg, 500mB Lava, Netherite Ingot                           | Added in 0.1.0-INDEV                              |
 | ✖           | minecraft:deepslate & Deepslate related items | TBD                           |                               |
 | ✖           | minecraft:dirt Dirt                          | TBD                           |                               |
 | ✖           | minecraft:echo_shard Echo Shard              | TBD                           |                               |

@@ -1,0 +1,17 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:amethyst_shard"
+        },
+        {
+            "item": "minecraft:diorite"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:calcite",
+            "count": 5
+        }
+    ]
+}

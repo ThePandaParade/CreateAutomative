@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "minecraft:obsidian"
+        },
+        {
+            "fluid": "minecraft:lava",
+            "amount": 250
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:obsidian",
+            "count": 2
+        }
+    ]
+}

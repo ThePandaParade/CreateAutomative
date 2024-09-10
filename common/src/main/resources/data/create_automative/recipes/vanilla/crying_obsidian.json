@@ -1,0 +1,17 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "fluid": "minecraft:water",
+            "amount": 10
+        },
+        {
+            "item": "minecraft:obsidian"
+        }
+    ],
+    "results": [
+        {
+        "item": "minecraft:crying_obsidian"
+    }
+]
+}
