@@ -18,12 +18,11 @@
 | ✔           | minecraft:concrete Concrete                  | Wash Concrete Powder           | Implemented in regular Create |
 | ✔           | minecraft:copper_ingot Copper Ingot          | Crush Veridium                 | Implemented in regular Create |
 | ✔           | minecraft:dragon_egg Dragon Egg              | Superheated, Mix Dragon Egg, Egg, 500mB Lava, Netherite Ingot                           | Added in 0.1.0-INDEV                              |
-| ✖           | minecraft:deepslate & Deepslate related items | TBD                           |                               |
-| ✖           | minecraft:dirt Dirt                          | TBD                           |                               |
-| ✖           | minecraft:echo_shard Echo Shard              | TBD                           |                               |
+| ✔           | minecraft:deepslate Deepslate | Mix Block of Coal with Cobblestone                           | Added in 0.1.0-INDEV                              |
+| ✔           | minecraft:echo_shard Echo Shard              | Deploy Sculk onto Amethyst Shard                           | Added in 0.1.0-INDEV. 50% chance to return double.                              |
 | ✖           | minecraft:elytra Elytra                      | TBD                           |                               |
 | ✖           | minecraft:end_stone End Stone                | TBD                           |                               |
-| ✖           | minecraft:monster_spawner Monster Spawner    | TBD                           | Will be toggleable in config  |
+| ✔           | minecraft:monster_spawner Monster Spawner    | Sequenced, Deploy Iron Bars on Iron Block, Deploy Spider Eye on Incomplete Spawner | Will be toggleable in config, Added in 0.1.0-INDEV  |
 | ✔           | minecraft:gold_ingot Gold Ingot              | Wash Red/Soul Sand             | Implemented in regular Create |
 | ✖           | minecraft:gilded_blackstone Gilded Blackstone | TBD                           |                               |
 | ✔           | minecraft:mud Mud                            | Mix 333mB Water + Dirt         | Implemented in regular Create |
@@ -54,7 +53,6 @@
 | ✖           | minecraft:tuff Tuff                          | TBD                           |                               |
 | ✖           | minecraft:totem_of_undying Totem of Undying  | TBD                           |                               |
 | ✖           | minecraft:turtle_egg Turtle Egg              | TBD                           |                               |
-| ✔           | (wooden items)                               | Tree Farm                     | Implemented in regular Create |
 | ✖           | minecraft:warped_wart_block Warped Wart Block | TBD                           |                               |
 | ✖           | minecraft:wither_rose Wither Rose            | TBD                           |                               |
 | ✖           | minecraft:*mushroom All Mushroom Blocks + Plant | TBD                         |                               |

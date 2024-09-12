@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:cobblestone",
+            "amount": 1
+        },
+        {
+            "item": "minecraft:coal_block",
+            "amount": 1
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:deepslate",
+            "count": 10
+        }
+    ]
+}

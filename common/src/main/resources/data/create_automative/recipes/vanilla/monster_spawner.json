@@ -1,0 +1,51 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient":
+        {
+            "item": "minecraft:iron_block"
+        },
+    "loops": 1,
+    "results": [
+        {
+            "count": 1,
+            "item": "minecraft:spawner"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:iron_block"
+                },
+                {
+                    "item": "minecraft:iron_bars"
+                }
+            ],
+            "results": [
+                {
+                    "item": "create_automative:incomplete_spawner"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "create_automative:incomplete_spawner"
+                },
+                {
+                    "item": "minecraft:spider_eye"
+                }
+            ],
+            "results": [
+                {
+                    "item": "create_automative:incomplete_spawner"
+                }
+            ]
+        }
+    ],
+    "transitionalItem": {
+        "item": "create_automative:incomplete_spawner"
+    }
+}
